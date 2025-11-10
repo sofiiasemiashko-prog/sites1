@@ -1,0 +1,108 @@
+body
+{
+  background:#c4e0f1;
+
+
+  background: url(fon.jpg)
+  no-repeat center;
+  background-size:100% 100%;
+}
+h1
+{
+    font-family: Arial;
+    font: size 45px;
+    font-style: bold;
+    color: rgb(1, 1, 14);
+    background-color: antiquewhite;
+    text-align: center;
+    letter-spacing: 2pt;
+}
+p
+{
+    width: 650px;
+    font-family: Arial;
+    font-size: 15pt;
+    font-style: italic;
+    color: #01170c;
+    background-color: antiquewhite;
+    text-align: center;
+    text-indent: 12pt;
+}
+img
+{
+    width:400px;
+    height:300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+a
+{  
+   display:inline-block;  
+   height:40px;
+   width:150px;  
+   font-family:impact;
+   font-size:14pt;
+   letter-spacing:3px;
+   background:#717b7b;
+   color:#ffffff;
+   text-decoration:none;
+   text-align:center;
+}
+a:hover
+{
+   background:#c7cfd7;
+   color:#242fcc;
+}
+
+.menu a {
+    display: block;      /* кожне посилання стає блоком = в стовпчик */
+    margin-bottom: 10px; /* щоб між пунктами був відступ */
+}
+.main
+{
+    position:relative;
+    background:#7daae4;    
+    width:800px;
+    margin:0px auto;
+    box-shadow:0px 0px 30px black;
+}
+.top
+{  
+   margin: auto;  
+   padding: 10px 10px 10px 10px;
+}
+.conteiner
+{
+    display: flex;      /* Вмикаємо flex-контейнер */
+    flex-direction: row; /* Розташування зліва направо (за замовчуванням) */
+    background-color: #7dafe1;
+    padding: 10px 10px 10px 10px;
+}
+.menu
+{  
+    width:150px;  
+    margin: 20px 20px 20px 20px;    
+}
+.content
+{
+    flex: 1;            /* Займає весь доступний простір */
+    width: 400px;    
+    background:#a2c3e3;    
+    padding: 10px 10px 10px 10px;  
+}
+.footer
+{  
+   margin: auto;  
+   padding: 10px 10px 10px 10px;  
+}
+
+
+.pic{
+
+
+    width: 400px;
+    margin: auto;
+}
+
+
